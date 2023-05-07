@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="projeto_2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="cor">Página Principal</a></li><br />
+                <li><a href="clinica.html" class="cor">Sobre a clínica</a></li><br />
+                <li><a href="atendimento.html" class="cor">Horário de Atendimento</a></li><br />
+                <li><a href="contato.html" class="cor">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+               <img src="3.png" >>
+            </div>
+    
+            <div class="content">
+            <h2>Contatos</h2>    
+            <ul>
+                <li>
+                    <p>
+                        central telefonica: 0800 766 744                   
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        email: cuidarme_ai@atendimento.com
+                    </p>
+                </li>
+            </ul><br />
+            <h2>Precisa falar com a gente?</h2>
+            <p>Preencha este formulario e envia sua duvidas/sugestao:</p>
+            
+            <form method="post" action="banco_de_dados.php" class="formulario">
+            <label for="nome">Nome:</label>
+            <input type="email" name="nome"><br /><br />
+            <label for="Email">Email:</label>
+            <input type="text" name="nome"><br /><br />
+            <label for="Assunto">Assunto:</label>
+            <input type="text" name="nome"><br /><br /><br />
+            <label for="comentario">Comentário:</label>
+            <textarea id="comentario" name="comentario" rows="5" cols="30"></textarea><br />
+            
+            <p>Ja e nosso paciente?</p>
+            <label for="cliente">Sim:</label>
+            <input type="radio" name="cliente" value="sim"><br /><br />
+            <label for="Ncliente">Não:</label>
+            <input type="radio" name="cliente" value="nao"><br /><br />
+
+            <button type="submit"> enviar </button>
+            <button type="reset"> corrigir </button>
+            </form><br /><br />
+
+            <h2>Endereço da cuidarME.ai</h2>
+            <p><i>Av. dos Militares, 345 - Santa Rita I, Montes Claros - MG, 39400-410</i></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.0958918435485!2d-43.85888156167045!3d-16.73549815799759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab54a4b413000d%3A0xe24ce49eff8908ca!2sAv.%20dos%20Militares%2C%20345%20-%20Santa%20Rita%20I%2C%20Montes%20Claros%20-%20MG%2C%2039400-410!5e0!3m2!1spt-BR!2sbr!4v1683420898136!5m2!1spt-BR!2sbr" width="650" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>">
+          
+               
+            </div>
+    
+            <div class="footer">
+                <p>Clínica CuidarMe.ia - Cuidando de você com inteligência artificial</p>
+                <a href="contato.html" class="cor">Duvidas? click aqui</a>
+                <p class="reservado">© 2023 CuidarMe. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
